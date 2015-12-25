@@ -21,7 +21,7 @@ class StoreFile
     }
 
     //Sets the location the file will be stored in
-    protected function setFileLocation($location) {
+    protected function setFileLocation(string $location) {
         $this->location = $location;
     }
 
